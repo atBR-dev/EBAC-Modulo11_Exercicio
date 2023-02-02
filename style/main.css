@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #ccc;
+}
+
+header{
+    background-color: #3f9fdf;
+}
+
+.barramenu{
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.barramenu > ul  li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.barramenu > ul  li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.barramenu > ul  li a:hover {
+    border-bottom: 3px solid #0f0f7c;
+    color: #0f0f7c;
+}
+
+.sobre{
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 48.5%);
+    column-gap: 1%;
+}
+
+.sobre > h2 {
+    border-bottom: 2px solid #3f9fdf;
+}
+
+.conteudo {
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+
+.sobretexto p{
+    padding-top: 20px;
+    font-weight: lighter;
+}
+
+.produtos {
+    max-width: 250px;
+    align-itens: center;
+}
+
+.produtos button{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #3f9fdf;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.produtos h3{
+    font-weight: normal;
+}
+
+.produtos h4{
+    font-weight: lighter;
+}
+
+.produtos {
+    border: none;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.produtos > img {
+    width: 100%;
+}
+
+.produtos:hover {
+    background-color: rgba(63, 159, 223, 0.32);
+}
+
+.sec_produto{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.sec_produto{
+    margin-top: 32px;
+}
+
+.conteudo_prod{
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(4, 24.2%);
+    column-gap: 1%;
+}
+
+.conteudo_prod button:hover{
+    background-color: #0f0f7c;
+}
+
+hr {
+    border: 1px solid #0f0f7c;
+}
+
+
+.sobre .fachada img {
+    width: 100%;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 770px) {
+    .sobre{
+        display: block;
+        width: 90%;
+    }
+    .conteudo_prod{
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 1%;
+        row-gap: 3%;
+    }
+
+    .produtos {
+        max-width: 350px;
+        align-itens: center;
+    }
+
+    .sec_produto {
+        width: 90%;
+        margin: auto;
+    }
+
+    .produtos button{
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .produtos h3 {
+        font-size: 30px;
+    }
+
+    .produtos h4 {
+        font-size: 22px;
+    }
+
+    .sec_produto h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 50px;
+    }
+    .sobre {
+        width: 90%;
+        margin: auto;
+    }
+
+    .sobre h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 50px;
+    }
+
+    .sobretexto p {
+        font-size: 24px;
+        font-weight: lighter;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    .sobre{
+        display: block;
+        width: 90%;
+    }
+    .conteudo_prod{
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        column-gap: 1%;
+        row-gap: 3%;
+    }
+
+    .produtos {
+        max-width: 350px;
+        align-itens: center;
+    }
+
+    .sec_produto {
+        width: 90%;
+        margin: auto;
+    }
+
+    .produtos button{
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .produtos h3 {
+        font-size: 30px;
+    }
+
+    .produtos h4 {
+        font-size: 22px;
+    }
+
+    .sec_produto h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 50px;
+    }
+    .sobre {
+        width: 90%;
+        margin: auto;
+    }
+
+    .sobre h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 50px;
+    }
+
+    .sobretexto p {
+        font-size: 22px;
+        font-weight: lighter;
+    }
+
+}
+
