@@ -196,7 +196,7 @@ hr {
 
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 500px) {
     .sobre{
         display: block;
         width: 90%;
